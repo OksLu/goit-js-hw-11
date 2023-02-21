@@ -97,7 +97,7 @@ function createMarkup(hits) {
   `;
 }
 function addCards(markup) {
-  gallery.innerHTML = markup;
+  gallery.insertAdjacentHTML('beforeend', markup);
 }
 function clearGallery() {
   gallery.innerHTML = '';

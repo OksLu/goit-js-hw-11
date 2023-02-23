@@ -26,6 +26,7 @@ function onSubmit(evt) {
   searchImagesApi.currentHits = 0;
 
   searchImagesApi.resetPage();
+
   clearGallery();
   fetchImagesCards();
   loadMoreBtn.classList.remove('hidden');
